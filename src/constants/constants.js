@@ -45,12 +45,12 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'CyanogenOS Apps',
-    description: "CyanogenOS 12.1 had a set of exclusive apps like a new theme engine and a new Truecaller integrated dialer. I ported it to work with CyanogenMod 13 and CM 13 based ROMs.",
+    title: 'CyyeargenOS Apps',
+    description: "CyyeargenOS 12.1 had a set of exclusive apps like a new theme engine and a new Truecaller integrated dialer. I ported it to work with CyyeargenMod 13 and CM 13 based ROMs.",
     image: '/images/capps.jpg',
     tags: ['Java', 'Libs'],
     source: '#',
-    visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
+    visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyyeargen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
     id: 3,
   },
 
@@ -63,4 +63,12 @@ export const TimeLineData = [
   { year: 2019, text: 'Finished Diploma in Computer Engineering.', },
   { year: 2020, text: 'Got a scholarship from the Delhi government.', },
   { year: 2021, text: 'Still trying to figure out this weird year.', },
+];
+export const TimeLineDataPtBr = [
+  { year: 2016, text: 'Iniciei como dev exemplo.', },
+  { year: 2017, text: 'Iniciei como dev exemplo.', },
+  { year: 2018, text: 'Iniciei como dev exemplo.', },
+  { year: 2019, text: 'Iniciei como dev exemplo.', },
+  { year: 2020, text: 'Iniciei como dev exemplo.', },
+  { year: 2021, text: 'Iniciei como dev exemplo.', },
 ];

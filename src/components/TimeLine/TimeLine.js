@@ -1,14 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { getLocale } from '../../shared/etc'
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import { TimeLineData, TimeLineDataPtBr } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
+  const locale = getLocale();
+  console.log("Locale", locale)
+
+  const timeLine = locale ==='pt-BR'? TimeLineDataPtBr: TimeLineData 
 
   const scroll = (node, left) => {
     return node.scrollTo({ left, behavior: 'smooth' });
@@ -50,7 +55,7 @@ const Timeline = () => {
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) => (
+          {timeLine.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}
               final={index === TOTAL_CAROUSEL_COUNT - 1}>
