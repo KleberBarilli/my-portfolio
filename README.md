@@ -2,7 +2,7 @@
 
 **Inspired By: https://github.com/lordarcadius/portfolio**
 
-![App Screenshot](https://i.ibb.co/jRRNMkH/Screenshot-from-2021-10-27-18-45-14.png)
+![App Screenshot](https://kleber-barilli-public.s3.amazonaws.com/header.png)
 
 ## Stack
 
