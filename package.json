@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "prepare": "husky install",
+    "lint": "eslint --fix .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css}' --config ./.prettierrc"
   },
   "dependencies": {
     "next": "10.2.3",
@@ -17,6 +20,19 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "next-optimized-images": "^2.6.2"
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "next-optimized-images": "^2.6.2",
+    "prettier": "^2.8.0"
   }
 }
