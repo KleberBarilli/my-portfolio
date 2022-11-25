@@ -44,12 +44,19 @@ const Projects = () => (
                             </TagList>
                         </div>
                         <UtilityList>
-                            <ExternalLinks href={p.visit}>
-                                Live Preview
-                            </ExternalLinks>
-                            <ExternalLinks href={p.source}>
-                                Source Code
-                            </ExternalLinks>
+                            {p.visit ? (
+                                <ExternalLinks href={p.visit}>
+                                    Live Preview
+                                </ExternalLinks>
+                            ) : undefined}
+                            {p.source ? (
+                                <ExternalLinks
+                                    href={p.source}
+                                    target={'_blank'}
+                                >
+                                    Source Code
+                                </ExternalLinks>
+                            ) : undefined}
                         </UtilityList>
                     </BlogCard>
                 );
