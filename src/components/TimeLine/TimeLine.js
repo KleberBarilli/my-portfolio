@@ -26,7 +26,6 @@ const Timeline = () => {
     const [activeItem, setActiveItem] = useState(0);
     const carouselRef = useRef();
     const locale = getLocale();
-    console.log('Locale', locale);
 
     const timeLine = locale === 'pt-BR' ? TimeLineDataPtBr : TimeLineData;
 
