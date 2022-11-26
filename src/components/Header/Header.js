@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import {
     AiFillGithub,
     AiFillInstagram,
     AiFillLinkedin,
     AiFillTwitterCircle,
 } from 'react-icons/ai';
+
 import {
     Container,
     Div1,
@@ -13,57 +15,69 @@ import {
     NavLink,
     SocialIcons,
 } from './HeaderStyles';
+import Button from '../../styles/GlobalComponents/Button';
+import { getLocale } from '../../shared/etc';
 
-const Header = () => (
-    <Container>
-        <Div1>
-            {/* <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <img src="/logo.svg" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Vipul Jha</span>
-        </a>
-      </Link> */}
-        </Div1>
-        <Div2>
-            <li>
-                <Link href="#projects">
-                    <NavLink>Projects</NavLink>
-                </Link>
-            </li>
-            <li>
-                <Link href="#skills">
-                    <NavLink>Skills</NavLink>
-                </Link>
-            </li>
-            <li>
-                <Link href="#about">
-                    <NavLink>About</NavLink>
-                </Link>
-            </li>
-            <li>
-                <a
-                    href="https://medium.com/@kleber.barilli73"
-                    target={'_blank'}
-                    rel="noreferrer"
+const Header = () => {
+    const router = useRouter();
+    const _locale = getLocale();
+    const title =
+        _locale === 'pt-BR' ? 'Switch to English' : 'Mude para Português';
+    return (
+        <Container>
+            <Div1>
+                <Button
+                    onClick={() => {
+                        router.push('/#', '#', {
+                            locale: _locale === 'pt-BR' ? 'en-US' : 'pt-BR',
+                        });
+                    }}
                 >
-                    <NavLink>Medium</NavLink>
-                </a>
-            </li>
-        </Div2>
-        <Div3>
-            <SocialIcons href="https://github.com/lordarcadius">
-                <AiFillGithub size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
-                <AiFillLinkedin size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.instagram.com/lordarcadius">
-                <AiFillInstagram size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.twitter.com/lordarcadius">
-                <AiFillTwitterCircle size="3rem" />
-            </SocialIcons>
-        </Div3>
-    </Container>
-);
+                    {title}
+                </Button>
+            </Div1>
+            <Div2>
+                <li>
+                    <Link href="#projects">
+                        <NavLink>Projects</NavLink>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="#skills">
+                        <NavLink>Skills</NavLink>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="#about">
+                        <NavLink>About</NavLink>
+                    </Link>
+                </li>
+                <li>
+                    <a
+                        href="https://medium.com/@kleber.barilli73"
+                        target={'_blank'}
+                        rel="noreferrer"
+                    >
+                        <NavLink>Medium</NavLink>
+                    </a>
+                </li>
+            </Div2>
+            <Div3>
+                <SocialIcons href="https://github.com/lordarcadius">
+                    <AiFillGithub size="3rem" />
+                </SocialIcons>
+                <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+                    <AiFillLinkedin size="3rem" />
+                </SocialIcons>
+                <SocialIcons href="https://www.instagram.com/lordarcadius">
+                    <AiFillInstagram size="3rem" />
+                </SocialIcons>
+                <SocialIcons href="https://www.twitter.com/lordarcadius">
+                    <AiFillTwitterCircle size="3rem" />
+                </SocialIcons>
+            </Div3>
+        </Container>
+    );
+};
 
 export default Header;
