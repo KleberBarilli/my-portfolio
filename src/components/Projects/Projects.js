@@ -23,6 +23,9 @@ const Projects = () => {
     const locale = getLocale();
     const myProjects = locale === 'pt-BR' ? projectsPtBr : projects;
     const title = locale === 'pt-BR' ? 'Projetos' : 'Projects';
+    const preview = locale === 'pt-BR' ? 'Demo' : 'Live Preview';
+    const source = locale === 'pt-BR' ? 'Código fonte' : 'Source Code';
+    const stack = locale === 'pt-BR' ? 'Tecnologias' : 'Tech Stack';
 
     return (
         <Section id="projects">
@@ -41,7 +44,7 @@ const Projects = () => {
                                 {p.description}
                             </CardInfo>
                             <div>
-                                <TitleContent>Tech Stack</TitleContent>
+                                <TitleContent>{stack}</TitleContent>
                                 <Hr />
                                 <TagList>
                                     {p.tags.map((t, i) => {
@@ -52,7 +55,7 @@ const Projects = () => {
                             <UtilityList>
                                 {p.visit ? (
                                     <ExternalLinks href={p.visit}>
-                                        Live Preview
+                                        {preview}
                                     </ExternalLinks>
                                 ) : undefined}
                                 {p.source ? (
@@ -60,7 +63,7 @@ const Projects = () => {
                                         href={p.source}
                                         target={'_blank'}
                                     >
-                                        Source Code
+                                        {source}
                                     </ExternalLinks>
                                 ) : undefined}
                             </UtilityList>
