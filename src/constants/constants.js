@@ -4,7 +4,7 @@ export const projects = [
         description:
             'Mobile application to control the scheduling of psychologists and customers.',
         image: '/images/psico-id.png',
-        tags: ['Typescript', 'Prisma', 'React Native'],
+        tags: ['Typescript', 'Prisma', 'Postgres', 'Redis', 'React Native'],
         visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
@@ -23,7 +23,7 @@ export const projects = [
         description:
             'Skeleton of an application using some S.O.L.I.D. principles.',
         image: '/images/rest.jpg',
-        tags: ['Typescript', 'Redis', 'Jest', 'Docker'],
+        tags: ['Typescript', 'Node.js', 'TypeORM', 'Redis', 'Jest', 'Docker'],
         source: 'https://github.com/KleberBarilli/API-Restful-Base',
         // visit: '',
         id: 2,
@@ -66,7 +66,7 @@ export const projectsPtBr = [
         description:
             'Em breve, o seu aplicativo de busca e agentamento de psicólogos.',
         image: '/images/psico-id.png',
-        tags: ['Typescript', 'Prisma', 'Postgres', 'Redis', 'React Native'],
+        tags: ['Typescript', 'Prisma', 'React Native'],
         visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
@@ -85,7 +85,7 @@ export const projectsPtBr = [
         description:
             'Esquelo de uma aplicação node com alguns princípios do SOLID.',
         image: '/images/rest.jpg',
-        tags: ['Typescript', 'Node.js', 'TypeORM', 'Redis', 'Jest', 'Docker'],
+        tags: ['Node.js', 'Redis', 'Jest', 'Docker'],
         source: 'https://github.com/KleberBarilli/API-Restful-Base',
         // visit: '',
         id: 2,
