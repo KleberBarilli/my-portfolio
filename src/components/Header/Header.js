@@ -18,16 +18,16 @@ import {
 import Button from '../../styles/GlobalComponents/Button';
 import { getLocale } from '../../shared/etc';
 
-const Header = () => {
-    const router = useRouter();
-    const _locale = getLocale();
-    const title =
-        _locale === 'pt-BR' ? 'Switch to English' : 'Mude para Português';
+const Header = ({ nav1, nav2, nav3, nav4 }) => {
+    // const router = useRouter();
+    // const _locale = getLocale();
+    // const title =
+    //     _locale === 'pt-BR' ? 'Switch to English' : 'Mude para Português';
 
     return (
         <Container>
             <Div1>
-                <Button
+                {/* <Button
                     onClick={() => {
                         router.push('/#', '#', {
                             locale: _locale === 'pt-BR' ? 'en-US' : 'pt-BR',
@@ -35,30 +35,22 @@ const Header = () => {
                     }}
                 >
                     {title}
-                </Button>
+                </Button> */}
             </Div1>
             <Div2>
                 <li>
                     <Link href="#projects">
-                        <NavLink>
-                            {_locale === 'pt-BR' ? 'Projetos' : 'Projects'}
-                        </NavLink>
+                        <NavLink>{nav1}</NavLink>
                     </Link>
                 </li>
                 <li>
                     <Link href="#skills">
-                        <NavLink>
-                            {' '}
-                            {_locale === 'pt-BR' ? 'Habilidades' : 'Skills'}
-                        </NavLink>
+                        <NavLink>{nav2} </NavLink>
                     </Link>
                 </li>
                 <li>
                     <Link href="#about">
-                        <NavLink>
-                            {' '}
-                            {_locale === 'pt-BR' ? 'Sobre' : 'About'}
-                        </NavLink>
+                        <NavLink> {nav3}</NavLink>
                     </Link>
                 </li>
                 <li>
@@ -67,7 +59,7 @@ const Header = () => {
                         target={'_blank'}
                         rel="noreferrer"
                     >
-                        <NavLink>Medium</NavLink>
+                        <NavLink>{nav4}</NavLink>
                     </a>
                 </li>
             </Div2>

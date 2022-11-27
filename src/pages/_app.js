@@ -1,9 +1,10 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Theme from '../styles/theme';
 import Head from 'next/head';
+import { appWithTranslation } from 'next-i18next';
 
 // eslint-disable-next-line react/prop-types
-export default function App({ Component, pageProps }) {
+function App({ Component, pageProps }) {
     return (
         <>
             <Head>
@@ -15,3 +16,5 @@ export default function App({ Component, pageProps }) {
         </>
     );
 }
+
+export default appWithTranslation(App);
