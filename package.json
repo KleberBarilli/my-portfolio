@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "prepare": "husky install",
     "lint": "eslint --fix .",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css}' --config ./.prettierrc"
