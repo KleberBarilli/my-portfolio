@@ -1,6 +1,5 @@
 # Personal Portfolio
 ![Version](https://img.shields.io/github/package-json/v/KleberBarilli/my-portfolio)
-![Build](https://img.shields.io/github/package-json/v/KleberBarilli/my-portfolio)
 
 
 
