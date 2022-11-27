@@ -23,6 +23,7 @@ const Header = () => {
     const _locale = getLocale();
     const title =
         _locale === 'pt-BR' ? 'Switch to English' : 'Mude para Português';
+
     return (
         <Container>
             <Div1>
@@ -39,17 +40,25 @@ const Header = () => {
             <Div2>
                 <li>
                     <Link href="#projects">
-                        <NavLink>Projects</NavLink>
+                        <NavLink>
+                            {_locale === 'pt-BR' ? 'Projetos' : 'Projects'}
+                        </NavLink>
                     </Link>
                 </li>
                 <li>
                     <Link href="#skills">
-                        <NavLink>Skills</NavLink>
+                        <NavLink>
+                            {' '}
+                            {_locale === 'pt-BR' ? 'Habilidades' : 'Skills'}
+                        </NavLink>
                     </Link>
                 </li>
                 <li>
                     <Link href="#about">
-                        <NavLink>About</NavLink>
+                        <NavLink>
+                            {' '}
+                            {_locale === 'pt-BR' ? 'Sobre' : 'About'}
+                        </NavLink>
                     </Link>
                 </li>
                 <li>
