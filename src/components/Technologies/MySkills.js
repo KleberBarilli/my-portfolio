@@ -29,5 +29,5 @@ export function mySkills() {
         rabbitMq: 'Em aprendizado para se conectar com microserviços.',
         git: 'O melhor versionador de códigos, geralmente subo meus códigos no github. Mas já usei bastante o bitbucket.',
     };
-    return locale === 'pt-BR' ? skillsPtBr : skills;
+    return locale === 'pt-BR' ? skills : skillsPtBr;
 }

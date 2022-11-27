@@ -30,9 +30,9 @@ const Projects = () => {
     return (
         <Section id="projects">
             <SectionDivider />
-            <SectionTitle main>{title}</SectionTitle>
+            <SectionTitle main>Projetos</SectionTitle>
             <GridContainer>
-                {myProjects.map((p, i) => {
+                {projectsPtBr.map((p, i) => {
                     return (
                         <BlogCard key={i}>
                             <Img src={p.image} />
@@ -55,7 +55,7 @@ const Projects = () => {
                             <UtilityList>
                                 {p.visit ? (
                                     <ExternalLinks href={p.visit}>
-                                        {preview}
+                                        Demo
                                     </ExternalLinks>
                                 ) : undefined}
                                 {p.source ? (
@@ -63,7 +63,7 @@ const Projects = () => {
                                         href={p.source}
                                         target={'_blank'}
                                     >
-                                        {source}
+                                        Código Fonte
                                     </ExternalLinks>
                                 ) : undefined}
                             </UtilityList>

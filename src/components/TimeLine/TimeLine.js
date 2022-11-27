@@ -32,8 +32,8 @@ const Timeline = () => {
     const carouselRef = useRef();
     const locale = getLocale();
 
-    const timeLine = locale === 'pt-BR' ? TimeLineDataPtBr : TimeLineData;
-    const journey = locale === 'pt-BR' ? MyJourneyPtBr : MyJourney;
+    const timeLine = locale === 'pt-BR' ? TimeLineData : TimeLineDataPtBr;
+    const journey = locale === 'pt-BR' ? MyJourney : MyJourneyPtBr;
 
     const scroll = (node, left) => {
         return node.scrollTo({ left, behavior: 'smooth' });
