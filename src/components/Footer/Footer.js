@@ -20,12 +20,6 @@ const Footer = () => {
         <FooterWrapper>
             <LinkList>
                 <LinkColumn>
-                    <LinkTitle>Chat</LinkTitle>
-                    <LinkItem href="https://t.me/lordarcadius">
-                        Telegram
-                    </LinkItem>
-                </LinkColumn>
-                <LinkColumn>
                     <LinkTitle>Email</LinkTitle>
                     <LinkItem href="mailto:kleber.barilli73@gmail.com">
                         kleber.barilli73@gmail.com

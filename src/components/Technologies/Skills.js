@@ -1,60 +1,69 @@
-import { DiAndroid, DiTerminal } from 'react-icons/di';
-import { SiJava, SiFirebase, SiGit } from 'react-icons/si';
-import { RiFlutterFill } from 'react-icons/ri';
+import {
+    SiJava,
+    SiGit,
+    SiPython,
+    SiTypescript,
+    SiRedis,
+    SiNodeDotJs,
+    SiPostgresql,
+    SiRabbitmq,
+    SiMongodb,
+} from 'react-icons/si';
+import { mySkills } from './MySkills';
 
 export const Skills = [
     {
-        slug: 'android',
-        Component: DiAndroid,
-        title: 'Android',
-        Description: () => (
-            <>I work on ROMs, Kernels & Android Apps using Java.</>
-        ),
+        slug: 'node',
+        Component: SiNodeDotJs,
+        title: 'Node.js',
+        Description: () => <>{mySkills().node}</>,
     },
     {
-        slug: 'flutter',
-        Component: RiFlutterFill,
-        title: 'Flutter',
-        Description: () => (
-            <>Currently working with Dart & Flutter for app development. </>
-        ),
+        slug: 'typescript',
+        Component: SiTypescript,
+        title: 'Typescript',
+        Description: () => <>{mySkills().typescript} </>,
     },
     {
         slug: 'java',
         Component: SiJava,
         title: 'Java',
-        Description: () => (
-            <>
-                I can code in Java. But I mainly use it for Android app
-                development.
-            </>
-        ),
+        Description: () => <>{mySkills().java}</>,
     },
     {
-        slug: 'terminal',
-        Component: DiTerminal,
-        title: 'Scripting',
-        Description: () => (
-            <>I have written dozens of Shell scripts for various purposes.</>
-        ),
+        slug: 'python',
+        Component: SiPython,
+        title: 'Python',
+        Description: () => <>{mySkills().python}</>,
     },
     {
-        slug: 'firebase',
-        Component: SiFirebase,
-        title: 'Firebase',
-        Description: () => (
-            <>I have used Firebase for auth, database & analytics in my apps.</>
-        ),
+        slug: 'postgresql',
+        Component: SiPostgresql,
+        title: 'PostgreSQL',
+        Description: () => <>{mySkills().postgresql}</>,
+    },
+    {
+        slug: 'mongo',
+        Component: SiMongodb,
+        title: 'MongoDB',
+        Description: () => <>{mySkills().mongodb}</>,
+    },
+    {
+        slug: 'redis',
+        Component: SiRedis,
+        title: 'Redis',
+        Description: () => <>{mySkills().redis}</>,
+    },
+    {
+        slug: 'rabbitmq',
+        Component: SiRabbitmq,
+        title: 'RabbitMQ',
+        Description: () => <>{mySkills().rabbitMq}</>,
     },
     {
         slug: 'git',
         Component: SiGit,
         title: 'Git',
-        Description: () => (
-            <>
-                Git is a tool that I use every day. I use GitHub for pushing my
-                code.
-            </>
-        ),
+        Description: () => <>{mySkills().git}</>,
     },
 ];
