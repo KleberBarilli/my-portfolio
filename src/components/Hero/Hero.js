@@ -5,25 +5,23 @@ import {
 } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { myHero } from './HeroText';
 
 const Hero = () => (
     <>
         <Section row nopadding>
             <LeftSection>
                 <SectionTitle main center>
-                    Hey there,
+                    {myHero().title}
                 </SectionTitle>
-                <SectionText>
-                    Hey there, This is Kleber Barill. I am a backend developer
-                    who works with NodeJS, Java and Python.
-                </SectionText>
+                <SectionText>{myHero().description}</SectionText>
                 <Button
                     onClick={(e) => {
                         e.preventDefault();
                         window.location.href = '/files/resume.pdf';
                     }}
                 >
-                    My Resume
+                    {myHero().resume}
                 </Button>
             </LeftSection>
         </Section>
