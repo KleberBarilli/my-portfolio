@@ -28,16 +28,28 @@ const Footer = () => {
             </LinkList>
             <SocialIconsContainer>
                 <SocialContainer>
-                    <SocialIcons href="https://github.com/KleberBarilli">
+                    <SocialIcons
+                        href="https://github.com/KleberBarilli"
+                        target="_blank"
+                    >
                         <AiFillGithub size="3rem" />
                     </SocialIcons>
-                    <SocialIcons href="https://www.linkedin.com/in/kleber-barilli/">
+                    <SocialIcons
+                        href="https://www.linkedin.com/in/kleber-barilli/"
+                        target="_blank"
+                    >
                         <AiFillLinkedin size="3rem" />
                     </SocialIcons>
-                    <SocialIcons href="https://www.instagram.com/kleber.ts/">
+                    <SocialIcons
+                        href="https://www.instagram.com/kleber.ts/"
+                        target="_blank"
+                    >
                         <AiFillInstagram size="3rem" />
                     </SocialIcons>
-                    <SocialIcons href="https://twitter.com/kleber_ts">
+                    <SocialIcons
+                        href="https://twitter.com/kleber_ts"
+                        target="_blank"
+                    >
                         <AiFillTwitterCircle size="3rem" />
                     </SocialIcons>
                 </SocialContainer>
