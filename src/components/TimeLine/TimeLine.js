@@ -18,7 +18,12 @@ import {
     SectionText,
     SectionTitle,
 } from '../../styles/GlobalComponents';
-import { TimeLineData, TimeLineDataPtBr } from '../../constants/constants';
+import {
+    MyJourney,
+    MyJourneyPtBr,
+    TimeLineData,
+    TimeLineDataPtBr,
+} from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -28,6 +33,7 @@ const Timeline = () => {
     const locale = getLocale();
 
     const timeLine = locale === 'pt-BR' ? TimeLineDataPtBr : TimeLineData;
+    const journey = locale === 'pt-BR' ? MyJourneyPtBr : MyJourney;
 
     const scroll = (node, left) => {
         return node.scrollTo({ left, behavior: 'smooth' });
@@ -71,11 +77,8 @@ const Timeline = () => {
 
     return (
         <Section id="about">
-            <SectionTitle>My Journey</SectionTitle>
-            <SectionText>
-                In my journey to date, I have learned a great deal about
-                development and life in general.
-            </SectionText>
+            <SectionTitle>{journey.title}</SectionTitle>
+            <SectionText>{journey.description}</SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
                 <>
                     {timeLine.map((item, index) => (

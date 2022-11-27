@@ -48,16 +48,6 @@ export const projects = [
         //visit: '',
         id: 4,
     },
-    // {
-    //     title: 'Send files to S3',
-    //     description:
-    //         'Example of a simple node.js api for sending files to amazon s3.',
-    //     image: '/images/aws-s3.png',
-    //     tags: ['Node.js', 'Express', 'Aws S3', 'Multer'],
-    //     source: 'https://github.com/KleberBarilli/s3-upload-image',
-    //     //  visit: '',
-    //     id: 2,
-    // },
 
     {
         title: 'Newsletter',
@@ -134,18 +124,45 @@ export const projectsPtBr = [
 ];
 
 export const TimeLineData = [
-    { year: 2016, text: 'Started my journey as a new developer.' },
-    { year: 2017, text: 'Worked intensively on ROMs & Kernels.' },
-    { year: 2018, text: 'Learned Android app development.' },
-    { year: 2019, text: 'Finished Diploma in Computer Engineering.' },
-    { year: 2020, text: 'Got a scholarship from the Delhi government.' },
-    { year: 2021, text: 'Still trying to figure out this weird year.' },
+    { year: 2019, text: 'I started my journey as a Python developer.' },
+    {
+        year: 2020,
+        text: 'I worked with java and learned new frontend frameworks like angular and react.',
+    },
+    { year: 2021, text: 'I started to learn the whole javascript ecosystem.' },
+    {
+        year: 2022,
+        text: 'I worked hard as a node.js developer and evolved a lot as a developer.',
+    },
+    {
+        year: 2023,
+        text: 'I will continue to specialize in node and study java',
+    },
 ];
 export const TimeLineDataPtBr = [
-    { year: 2016, text: 'Iniciei como dev exemplo.' },
-    { year: 2017, text: 'Iniciei como dev exemplo.' },
-    { year: 2018, text: 'Iniciei como dev exemplo.' },
-    { year: 2019, text: 'Iniciei como dev exemplo.' },
-    { year: 2020, text: 'Iniciei como dev exemplo.' },
-    { year: 2021, text: 'Iniciei como dev exemplo.' },
+    { year: 2019, text: 'Iniciei minha caminhada como desenvolvedor Python.' },
+    {
+        year: 2020,
+        text: 'Trabalhei com java e aprendi novos frameworks do frontend como angular e react.',
+    },
+    { year: 2021, text: 'Comecei a aprender todo o ecossistema javascript.' },
+    {
+        year: 2022,
+        text: 'Trabalhei arduamente como desenvolvedor node.js e evolui muito como desenvolvedor.',
+    },
+    {
+        year: 2023,
+        text: 'Continuarei me especializando em node e estudando java.',
+    },
 ];
+export const MyJourney = {
+    title: 'My Journey',
+    description:
+        'In my journey to date, I have learned a lot about hard skills, but I have also evolved a lot as a person by developing new soft skills',
+};
+
+export const MyJourneyPtBr = {
+    title: 'Minha jornada',
+    description:
+        'Em minha jornada até hoje, aprendi muito sobre hard skills, mas também evolui muito como pessoa desenvolvendo novas softskills',
+};
