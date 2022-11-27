@@ -4,7 +4,7 @@ export const projects = [
         description:
             'Mobile application to control the scheduling of psychologists and customers.',
         image: '/images/psico-id.png',
-        tags: ['Typescript', 'Prisma', 'Postgres', 'Redis', 'React Native'],
+        tags: ['Typescript', 'Prisma', 'React Native'],
         visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
@@ -23,7 +23,7 @@ export const projects = [
         description:
             'Skeleton of an application using some S.O.L.I.D. principles.',
         image: '/images/rest.jpg',
-        tags: ['Typescript', 'Node.js', 'TypeORM', 'Redis', 'Jest', 'Docker'],
+        tags: ['Typescript', 'Redis', 'Jest', 'Docker'],
         source: 'https://github.com/KleberBarilli/API-Restful-Base',
         // visit: '',
         id: 2,
