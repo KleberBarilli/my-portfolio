@@ -124,19 +124,29 @@ export const projectsPtBr = [
 ];
 
 export const TimeLineData = [
-    { year: 2019, text: 'I started my journey as a Python developer.' },
+    {
+        year: 2018,
+        text: 'I started my journey as a Python developer, a language that provided me with a great learning experience in programming logic. Through Python, I learned to develop algorithms and understand fundamental programming concepts. Additionally, I had the opportunity to deepen my knowledge in databases and other essential technologies for software development.',
+    },
+    {
+        year: 2019,
+        text: 'I started my career as a programmer, and was able to deepen my knowledge in Python for web scraping with crawlers and data processing. Additionally, I had the opportunity to further explore data science techniques, learning new techniques in exploratory data analysis and data visualization.',
+    },
     {
         year: 2020,
-        text: 'I worked with java and learned new frontend frameworks like angular and react.',
+        text: 'During 2020, I had the opportunity to work with Java in the Spring ecosystem, where I was able to evolve my language skills and learn new concepts. Additionally, I gained experience in front-end frameworks such as Angular and React, thereby expanding my range of skills in web application development.',
     },
-    { year: 2021, text: 'I started to learn the whole javascript ecosystem.' },
+    {
+        year: 2021,
+        text: 'I graduated in Computer Science at Atitus Passo Fundo and began to specialize in Node.js.',
+    },
     {
         year: 2022,
-        text: 'I worked hard as a node.js developer and evolved a lot as a developer.',
+        text: 'I worked hard as a backend developer, focused on specializing in Node.js. It was a year of intense learning, in which I improved my programming skills, software architecture, and problem-solving skills. Working with Node.js allowed me to develop scalable and high-performance applications.',
     },
     {
         year: 2023,
-        text: 'I will continue to specialize in node and study java',
+        text: 'For the year 2023, I intend to continue improving as a developer, working on projects with Node.js and deepening my knowledge with the Nest.js framework. Additionally, I am also investing in specializing in Java in the Spring ecosystem, to expand my skills and possibilities in the development field.',
     },
 ];
 export const TimeLineDataPtBr = [
