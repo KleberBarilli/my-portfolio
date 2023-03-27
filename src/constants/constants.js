@@ -64,7 +64,7 @@ export const projectsPtBr = [
     {
         title: 'PsicoID',
         description:
-            'Em breve, o seu aplicativo de busca e agentamento de psicólogos.',
+            'Em breve, o seu aplicativo de busca e agendamento de psicólogos.',
         image: '/images/psico-id.png',
         tags: ['Typescript', 'Prisma', 'React Native'],
         visit: 'https://www.psicoid.com.br/',
@@ -140,19 +140,29 @@ export const TimeLineData = [
     },
 ];
 export const TimeLineDataPtBr = [
-    { year: 2019, text: 'Iniciei minha caminhada como desenvolvedor Python.' },
+    {
+        year: 2018,
+        text: 'Comecei minha caminhada como desenvolvedor Python, uma linguagem que me proporcionou um grande aprendizado em lógica de programação. Através do Python, aprendi a desenvolver algoritmos e a entender conceitos fundamentais de programação. Além disso, tive a oportunidade de aprofundar meus conhecimentos em banco de dados e outras tecnologias essenciais para o desenvolvimento de softwares.',
+    },
+    {
+        year: 2019,
+        text: 'Iniciei minha carreira de programador, pude aprofundar meus conhecimentos em Python para a realização de scraping com crawlers e tratamento de dados. Além disso, tive a oportunidade de me aprofundar ainda mais em técnicas de ciência de dados, aprendendo novas técnicas de análise exploratória e visualização de dados.',
+    },
     {
         year: 2020,
-        text: 'Trabalhei com java e aprendi novos frameworks do frontend como angular e react.',
+        text: 'Durante o ano de 2020, tive a oportunidade de trabalhar com Java no ecossistema Spring, onde pude evoluir na linguagem na linguagem e aprender novos conceitos. Além disso, também adquiri experiência em frameworks do frontend como Angular e React, ampliando assim meu leque de habilidades em desenvolvimento de aplicações web.',
     },
-    { year: 2021, text: 'Comecei a aprender todo o ecossistema javascript.' },
+    {
+        year: 2021,
+        text: 'Me formei em Ciência da Computação na Atitus Passo fundo e comecei a me especializar em Node.js.',
+    },
     {
         year: 2022,
-        text: 'Trabalhei arduamente como desenvolvedor node.js e evolui muito como desenvolvedor.',
+        text: 'Trabalhei arduamente como desenvolvedor backend, focado na especialização em Node.js. Foi um ano de intenso aprendizado, no qual aprimorei minhas habilidades em programação, arquitetura de software e resolução de problemas complexos. Trabalhar com Node.js me proporcionou a oportunidade de desenvolver aplicações escaláveis e de alta performance.',
     },
     {
         year: 2023,
-        text: 'Continuarei me especializando em node e estudando java.',
+        text: 'Para o ano de 2023, pretendo continuar me aprimorando como desenvolvedor, trabalhando em projetos com Node.js e aprofundando meus conhecimentos com o framework Nest.js. Além disso, também estou investindo em me especializar em Java no ecossistema Spring, para ampliar minhas habilidades e possibilidades de atuação na área de desenvolvimento.',
     },
 ];
 export const MyJourney = {

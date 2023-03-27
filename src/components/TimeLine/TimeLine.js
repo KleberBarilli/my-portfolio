@@ -95,6 +95,7 @@ const Timeline = () => {
                                 <CarouselItemTitle>
                                     {`${item.year}`}
                                     <CarouselItemImg
+                                        //src={item.}
                                         width="208"
                                         height="6"
                                         viewBox="0 0 208 6"
