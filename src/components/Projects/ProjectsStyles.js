@@ -90,7 +90,7 @@ export const CardInfo = styled.p`
     align-items: center;
 
     @media ${(props) => props.theme.breakpoints.sm} {
-        padding: 0.3rem;
+        padding: 2rem;
     }
 `;
 
