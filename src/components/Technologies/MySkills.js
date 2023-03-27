@@ -4,8 +4,8 @@ export function mySkills() {
     const locale = getLocale();
 
     const skills = {
-        node: `Node is the technology I know the most about. I've done several projects and I'm still working on it.`,
         typescript: 'The main language with which I write my code.',
+        node: `Node is the technology I know the most about. I've done several projects and I'm still working on it.`,
         java: `I can get along fine with java's springboot, I am trying to gradually evolve the ecosystem as a whole.`,
         python: 'I used to work with python, today I take it more as a hobby, sometimes I make some report generation scripts :)',
         postgresql:
@@ -17,10 +17,11 @@ export function mySkills() {
         git: `The best code versioner, I usually upload my code to github. But I've used bitbucket quite a bit.`,
     };
     const skillsPtBr = {
-        node: 'Node é a tecnologia que mais domino. Já fiz vários projetos e continuo trabalhando nela.',
-        typescript: 'A principal linguagem com que escrevo meus códigos.',
-        java: 'Consigo me virar bem com o springboot do java, estou tentando evoluir aos poucos no ecossistema ao todo.',
-        python: 'Já trabalhei com python, hoje em dia levo mais como hobbie, algumas vezes faços uns scripts de geração de relatórios :)',
+        typescript:
+            'Mais de 3 anos programando em typescript, tanto para frontend, quanto para o backend com node.',
+        node: 'Mais de 3 anos construindo serviços e aplicações backend escaláveis com o ecossistema nodejs.',
+        java: 'Tenho experiência com Java e estou em constante aprendizado do ecossistema Spring, para desenvolvimento de aplicações backend escaláveis e robustas.',
+        python: 'Tenho experiência em desenvolvimento de aplicações utilizando Python, com destaque para a criação de lambda functions em serviços serverless. Além disso, possuo conhecimento em data science, incluindo análise exploratória de dados, manipulação de dados com pandas e visualização de dados com matplotlib e seaborn',
         postgresql:
             'O meu banco relacional favorito, já usei em muitos projetos.',
         mongodb:

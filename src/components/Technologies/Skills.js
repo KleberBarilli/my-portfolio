@@ -1,6 +1,5 @@
 import {
     SiJava,
-    SiGit,
     SiPython,
     SiTypescript,
     SiRedis,
@@ -8,21 +7,22 @@ import {
     SiPostgresql,
     SiRabbitmq,
     SiMongodb,
+    SiMysql,
 } from 'react-icons/si';
 import { mySkills } from './MySkills';
 
 export const Skills = [
     {
-        slug: 'node',
-        Component: SiNodeDotJs,
-        title: 'Node.js',
-        Description: () => <>{mySkills().node}</>,
-    },
-    {
         slug: 'typescript',
         Component: SiTypescript,
         title: 'Typescript',
         Description: () => <>{mySkills().typescript} </>,
+    },
+    {
+        slug: 'node',
+        Component: SiNodeDotJs,
+        title: 'Node.js',
+        Description: () => <>{mySkills().node}</>,
     },
     {
         slug: 'java',
@@ -43,6 +43,12 @@ export const Skills = [
         Description: () => <>{mySkills().postgresql}</>,
     },
     {
+        slug: 'mysql',
+        Component: SiMysql,
+        title: 'MySQL',
+        Description: () => <>{mySkills().git}</>,
+    },
+    {
         slug: 'mongo',
         Component: SiMongodb,
         title: 'MongoDB',
@@ -59,11 +65,5 @@ export const Skills = [
         Component: SiRabbitmq,
         title: 'RabbitMQ',
         Description: () => <>{mySkills().rabbitMq}</>,
-    },
-    {
-        slug: 'git',
-        Component: SiGit,
-        title: 'Git',
-        Description: () => <>{mySkills().git}</>,
     },
 ];

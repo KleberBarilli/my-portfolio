@@ -26,7 +26,7 @@ const Technologies = () => (
                     <ListContainer>
                         <ListTitle>{Skill.title}</ListTitle>
                         <ListParagraph>
-                            <Skill.Description />
+                            {/* <Skill.Description /> */}
                         </ListParagraph>
                     </ListContainer>
                 </ListItem>

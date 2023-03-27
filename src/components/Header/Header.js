@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+
 import {
     AiFillGithub,
     AiFillInstagram,
@@ -15,8 +15,6 @@ import {
     NavLink,
     SocialIcons,
 } from './HeaderStyles';
-
-import { getLocale } from '../../shared/etc';
 
 const Header = () => {
     // const router = useRouter();
