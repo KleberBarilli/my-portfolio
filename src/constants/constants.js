@@ -2,36 +2,37 @@ export const projects = [
     {
         title: 'PsicoID',
         description:
-            'Mobile application to control the scheduling of psychologists and customers.',
+            'MVP backend of PsicoID, an app for scheduling psychologists.',
         image: '/images/psico-id.png',
-        tags: ['Typescript', 'Prisma', 'Postgres', 'Redis', 'React Native'],
+        tags: ['Typescript', 'Prisma', 'React Native'],
+        source: 'https://github.com/KleberBarilli/MVP-Psicoid-Backend',
         visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
     {
         title: 'My finances - Microservices',
         description:
-            'Still under development. Microservices with nest.js and rabbitMQ',
+            'Project to deepen my knowledge in NestJS and its integration with microservices. In this application, I use RabbitMQ as a message broker between all applications.',
         image: '/images/nest.png',
-        tags: ['Typescript', 'Nest', 'RabbitMQ', 'PrismaORM'],
+        tags: ['Typescript', 'Nest', 'RabbitMQ', 'Prisma'],
         source: 'https://github.com/KleberBarilli/my-finances-microservices/',
         //visit: '',
         id: 1,
     },
     {
-        title: 'SOLID RESTFUL API Base',
+        title: 'Spring Rest API',
         description:
-            'Skeleton of an application using some S.O.L.I.D. principles.',
+            'Rest API for a delivery system developed in Java with Springboot.',
         image: '/images/rest.jpg',
-        tags: ['Typescript', 'Node.js', 'TypeORM', 'Redis', 'Jest', 'Docker'],
-        source: 'https://github.com/KleberBarilli/API-Restful-Base',
+        tags: ['Java', 'Springboot', 'JPA', 'MySQL', 'Flyway', 'Lombok'],
+        source: 'https://github.com/KleberBarilli/Spring-Rest',
         // visit: '',
         id: 2,
     },
     {
-        title: 'Api e-mails Queue',
+        title: 'API Queue Mails',
         description:
-            'Node Api for sending e-mails with aws ses. Using redis for through a queue. Simple and scalable for nodejs applications that use jobs and queues.',
+            'Node API that sends emails using AWS Ses, with Redis to put each email in a queue. It is simple and scalable for applications that will use Jobs/Workers.',
         image: '/images/bull.png',
         tags: ['Node.js', 'Aws Ses', 'Redis', 'BullMQ'],
         source: 'https://github.com/KleberBarilli/bullmq-redis-node',
@@ -41,22 +42,21 @@ export const projects = [
     {
         title: 'Youtube MP3 Converter',
         description:
-            'Converting mp3 videos on youtube by passing the url. Application made using express and statically rendered with .ejs files.',
+            'Convert YouTube videos to MP3 by passing the URL. Everything was rendered on the server by Express.',
         image: '/images/easy-converter.png',
         tags: ['Node.js', 'Express', 'Axios'],
         source: 'https://github.com/KleberBarilli/easy-converter',
         //visit: '',
         id: 4,
     },
-
     {
         title: 'Newsletter',
         description:
-            'Application that is responsible for subscribing users to a newsletter.',
+            'Application that is responsible for subscribing/unsubscribing users to a newsletter.',
         image: '/images/node-mongo.png',
         tags: ['Node.js', 'MongoDB'],
         source: 'https://github.com/KleberBarilli/newsletter-api',
-        //  visit: '',
+        // visit: '',
         id: 5,
     },
 ];
@@ -64,9 +64,10 @@ export const projectsPtBr = [
     {
         title: 'PsicoID',
         description:
-            'Em breve, o seu aplicativo de busca e agendamento de psicólogos.',
+            'Backend MVP do psicoID, app para agendamento de psicólogos.',
         image: '/images/psico-id.png',
         tags: ['Typescript', 'Prisma', 'React Native'],
+        source: 'https://github.com/KleberBarilli/MVP-Psicoid-Backend',
         visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
@@ -75,18 +76,18 @@ export const projectsPtBr = [
         description:
             'Projeto para aprofundar meus conhecimentos em NestJS e sua integração com microserviços. Nessa aplicação, uso o RabbitMQ como servidor de mensageria entre todas as aplicações',
         image: '/images/nest.png',
-        tags: ['Typescript', 'Nest', 'RabbitMQ', 'PrismaORM'],
+        tags: ['Typescript', 'Nest', 'RabbitMQ', 'Prisma'],
         source: 'https://github.com/KleberBarilli/my-finances-microservices/',
         //visit: '',
         id: 1,
     },
     {
-        title: 'SOLID RESTFUL API Base',
+        title: 'Spring Rest API',
         description:
-            'Esquelo de uma aplicação node com alguns princípios do SOLID.',
+            'API Rest  de um sistema de entregas desenvolvida em Java com Springboot.',
         image: '/images/rest.jpg',
-        tags: ['Node.js', 'Redis', 'Jest', 'Docker'],
-        source: 'https://github.com/KleberBarilli/API-Restful-Base',
+        tags: ['Java', 'Springboot', 'JPA', 'MySQL', 'Flyway', 'Lombok'],
+        source: 'https://github.com/KleberBarilli/Spring-Rest',
         // visit: '',
         id: 2,
     },
