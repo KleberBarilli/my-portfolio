@@ -66,7 +66,7 @@ export const projectsPtBr = [
         description:
             'Backend MVP do psicoID, app para agendamento de psicólogos.',
         image: '/images/psico-id.png',
-        tags: ['Typescript', 'Prisma', 'React Native'],
+        tags: ['Typescript', 'Node.js', 'Prisma', 'PostgreSQL', 'Redis'],
         source: 'https://github.com/KleberBarilli/MVP-Psicoid-Backend',
         visit: 'https://www.psicoid.com.br/',
         id: 0,
