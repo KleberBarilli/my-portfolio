@@ -64,22 +64,12 @@ export const projectsPtBr = [
     {
         title: 'PsicoID',
         description:
-            'Backend MVP do psicoID, app para agendamento de psicólogos.',
+            'Backend MVP do psicoID, app para agendamento de psicólogos. Foi escrito em typescript utilizando node.',
         image: '/images/psico-id.png',
         tags: ['Typescript', 'Node.js', 'Prisma', 'PostgreSQL', 'Redis'],
         source: 'https://github.com/KleberBarilli/MVP-Psicoid-Backend',
         // visit: 'https://www.psicoid.com.br/',
         id: 0,
-    },
-    {
-        title: 'My finances - Microservices',
-        description:
-            'Projeto para aprofundar meus conhecimentos em NestJS e sua integração com microserviços. Nessa aplicação, uso o RabbitMQ como servidor de mensageria entre todas as aplicações',
-        image: '/images/nest.png',
-        tags: ['Typescript', 'Nest', 'RabbitMQ', 'Prisma'],
-        source: 'https://github.com/KleberBarilli/my-finances-microservices/',
-        //visit: '',
-        id: 1,
     },
     {
         title: 'Spring Rest API',
@@ -89,6 +79,16 @@ export const projectsPtBr = [
         tags: ['Java', 'Springboot', 'JPA', 'MySQL', 'Flyway', 'Lombok'],
         source: 'https://github.com/KleberBarilli/Spring-Rest',
         // visit: '',
+        id: 1,
+    },
+    {
+        title: 'Nest.js Microservices',
+        description:
+            'Projeto para aprofundar meus conhecimentos em NestJS e sua integração com microserviços. Nessa aplicação, uso o RabbitMQ como servidor de mensageria entre todas as aplicações',
+        image: '/images/nest.png',
+        tags: ['Typescript', 'Nest', 'RabbitMQ', 'Prisma'],
+        source: 'https://github.com/KleberBarilli/my-finances-microservices/',
+        //visit: '',
         id: 2,
     },
     {
@@ -185,5 +185,5 @@ export const MyJourney = {
 export const MyJourneyPtBr = {
     title: 'Minha jornada',
     description:
-        'Em minha jornada até hoje, aprendi muito sobre hard skills, mas também evolui muito como pessoa desenvolvendo novas softskills',
+        'Breve linha do tempo de como estou evoluindo desde que comecei na área de tecnologia.',
 };
