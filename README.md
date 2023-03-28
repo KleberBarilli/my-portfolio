@@ -7,9 +7,9 @@
 -   React
 -   Next
 
-## Demo
+## Live Demo
 
-[Site](https://github.com/KleberBarilli/my-portfolio)
+[Site](https://kleber-barilli.vercel.app/)
 
 ## Run Project
 
