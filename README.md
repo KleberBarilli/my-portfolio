@@ -1,13 +1,11 @@
 # Personal Portfolio
-![Version](https://img.shields.io/github/package-json/v/KleberBarilli/my-portfolio)
 
-
-
+![Version](https://img.shields.io/github/package-json/v/kleberbarilli/my-portfolio?filename=package.json)
 
 ## Stack
 
-- React
-- Next
+-   React
+-   Next
 
 ## Demo
 
