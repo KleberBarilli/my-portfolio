@@ -96,6 +96,8 @@ export const ListParagraph = styled.div`
     line-height: 30px;
     color: rgba(255, 255, 255, 0.75);
 
+    display: ${(props) => (props.isHovering ? 'block' : 'none')};
+
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: 16px;
         line-height: 28px;
