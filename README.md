@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Version](https://img.shields.io/github/package-json/v/kleberbarilli/my-portfolio?filename=package.json)
+![Version](https://img.shields.io/github/package-json/v/kleberbarilli/my-portfolio)
 
 ## Stack
 
