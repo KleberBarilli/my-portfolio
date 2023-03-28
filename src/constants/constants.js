@@ -6,7 +6,7 @@ export const projects = [
         image: '/images/psico-id.png',
         tags: ['Typescript', 'Prisma', 'React Native'],
         source: 'https://github.com/KleberBarilli/MVP-Psicoid-Backend',
-        visit: 'https://www.psicoid.com.br/',
+        //  visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
     {
@@ -68,7 +68,7 @@ export const projectsPtBr = [
         image: '/images/psico-id.png',
         tags: ['Typescript', 'Node.js', 'Prisma', 'PostgreSQL', 'Redis'],
         source: 'https://github.com/KleberBarilli/MVP-Psicoid-Backend',
-        visit: 'https://www.psicoid.com.br/',
+        // visit: 'https://www.psicoid.com.br/',
         id: 0,
     },
     {

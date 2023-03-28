@@ -16,15 +16,15 @@ import {
     SectionDivider,
     SectionTitle,
 } from '../../styles/GlobalComponents';
-import { projectsPtBr, projects } from '../../constants/constants';
+import { projectsPtBr } from '../../constants/constants';
 import { getLocale } from '../../shared/etc';
 
 const Projects = () => {
     const locale = getLocale();
-    const myProjects = locale === 'pt-BR' ? projectsPtBr : projects;
-    const title = locale === 'pt-BR' ? 'Projetos' : 'Projects';
-    const preview = locale === 'pt-BR' ? 'Demo' : 'Live Preview';
-    const source = locale === 'pt-BR' ? 'Código fonte' : 'Source Code';
+    // const myProjects = locale === 'pt-BR' ? projectsPtBr : projects;
+    // const title = locale === 'pt-BR' ? 'Projetos' : 'Projects';
+    // const preview = locale === 'pt-BR' ? 'Demo' : 'Live Preview';
+    // const source = locale === 'pt-BR' ? 'Código fonte' : 'Source Code';
     const stack = locale === 'pt-BR' ? 'Tecnologias' : 'Tech Stack';
 
     return (
