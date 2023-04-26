@@ -1,6 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Theme from '../styles/theme';
 import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react'
 
 // eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
@@ -11,6 +12,7 @@ export default function App({ Component, pageProps }) {
             </Head>
             <Theme>
                 <Component {...pageProps} />
+                <Analytics />           
             </Theme>
         </>
     );
