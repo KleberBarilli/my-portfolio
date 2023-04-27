@@ -18,7 +18,7 @@ const Hero = () => (
                 <Button
                     onClick={(e) => {
                         e.preventDefault();
-                        window.location.href = '/files/resume.pdf';
+                        window.open('/files/resume.pdf', '_blank');
                     }}
                 >
                     {myHero().resume}
