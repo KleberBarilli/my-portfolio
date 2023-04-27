@@ -104,11 +104,11 @@ export const projectsPtBr = [
     {
         title: 'Youtube MP3 Converter',
         description:
-            'Converta vídeos do youtube para MP3 passando a URL. Tudo foi renderizado no servidor pelo express.',
+            'Converta vídeos do youtube para MP3 passando a URL. Feito em Angular 15.0.',
         image: '/images/easy-converter.png',
-        tags: ['Node.js', 'Express', 'Axios'],
-        source: 'https://github.com/KleberBarilli/easy-converter',
-        //visit: '',
+        tags: ['Angular', 'Typescript'],
+        source: 'https://github.com/KleberBarilli/easy-converter-v1',
+        visit: 'https://easy-converter-beta.vercel.app/',
         id: 4,
     },
 
