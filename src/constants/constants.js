@@ -108,7 +108,7 @@ export const projectsPtBr = [
         image: '/images/easy-converter.png',
         tags: ['Angular', 'Typescript'],
         source: 'https://github.com/KleberBarilli/easy-converter-v1',
-        visit: 'https://easy-converter-beta.vercel.app/',
+        visit: 'https://youtube-video-mp3-converter.vercel.app/',
         id: 4,
     },
 
